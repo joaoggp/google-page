@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    padding-right: 5rem;
+    margin-top: 1.2rem;
+    color: rgba(0, 0, 0, 0);
+}
+
+nav .nav-itens{
+    display: flex;
+    list-style: none;
+}
+
+nav .nav-itens>a{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+nav .nav-item{
+    color: rgb(49, 49, 49);
+}
+
+main .central-c .logo-centro{
+    margin: 0 auto;
+    padding-top: 10%;
+    text-align: center;
+}
+
+main .central-c .logo-centro .logo-google{
+    width: auto;
+    max-width: 17%;
+    min-width: 15%;
+    transition: 2s;
+}
+
+main .central-c .logo-centro .logo-google:hover{
+    transform: scale(1.1);
+}
+
+.search-camp .search-in{
+    display: block;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-top: 2rem;
+    height: 2.5rem;
+    width: auto;
+    min-width: 30%;
+    max-width: 50%;
+    border: 1px solid #dfe1e5;
+    border-radius: 2rem;
+}
+
+.search-camp .search-in:focus{
+    outline: none;
+}
+
+.search-camp .search-in::placeholder{
+    text-align: center;
+}
+
+
+.search-camp .search-in:focus::placeholder{
+    color: transparent;
+}
+
+.central-c .search-btns{
+    display: block;
+    margin-right: auto;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.central-c .search-btns .btns-main{
+    display: inline-block;
+    width: auto;
+    height: 2.5rem;
+    max-height: 2.5rem;
+    min-width: 9%;
+    max-width: 12%;
+    border-radius: 8px;
+    margin: 0px 3px auto;
+    border: none;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.central-c .search-btns .btns-main:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(128, 128, 128, 0.486);
+}
+
+footer{
+    display: block;
+    padding: 1.563rem;
+    background-color: #49494921;
+    margin: auto;
+    margin-top: 21.8rem;
+}
+
+.final-text .creditos{
+    text-align: center;
+    font-weight: 600;
+}
